@@ -30,8 +30,9 @@
 
  * What is broadcasting?
 
-
 ## Requirements:
+
+## Python Scripts
 
  * Allowed editors: vi, vim, emacs
 
@@ -56,5 +57,3 @@
  * Unless otherwise noted, you are not allowed to import any module
 
  * All your files must be executable
-
- * The length of your files will be tested using wc

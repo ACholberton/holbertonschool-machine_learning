@@ -1,0 +1,16 @@
+#!usr/bin/env python3
+"""This funciton calculates the shape of matrix"""
+
+
+def matrix_shape(matrix):
+    """Function to calculate the shape"""
+    
+    if not matrix:
+        """check if matrix exists"""
+        return None
+
+    rows = len(matrix)
+    columns = len(matrix[0])
+
+    if type(columns) is not list:
+        print(

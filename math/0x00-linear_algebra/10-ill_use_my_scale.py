@@ -3,4 +3,5 @@
 
 
 def np_shape(matrix):
+    """using numpy.shape we can calculate the shape of a matrix"""
     return(matrix.shape)

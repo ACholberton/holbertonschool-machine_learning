@@ -3,7 +3,7 @@
 
 
 def matrix_transpose(matrix):
-
+    """Using nested loops to iterate through the rows and columns"""
     tp_matrix = []
 
     for rows in range(len(matrix)):

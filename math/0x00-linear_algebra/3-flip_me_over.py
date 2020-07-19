@@ -8,8 +8,6 @@ def matrix_transpose(matrix):
 
     for rows in range(len(matrix)):
         for column in range(len(matrix[0])):
-            tp_matrix = matrix[rows][column]
-
-
+            tp_matrix = [matrix[rows][column]]
 
     return (tp_matrix)

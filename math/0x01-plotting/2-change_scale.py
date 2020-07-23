@@ -1,4 +1,4 @@
-!/usr/bin/env python3
+#!/usr/bin/env python3
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -11,6 +11,6 @@ plt.plot(x, y)
 plt.title('Exponential Decay of C-14')
 plt.xlabel('Time (years)')
 plt.ylabel('Fraction Remaining')
-plt.xlim([0, 28650)]
+plt.xlim(0, 28650)
 plt.yscale("log")
 plt.show()

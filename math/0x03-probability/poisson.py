@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
+"""Class constructor"""
 
 
 class Poisson:
-
+    """poisson class"""
     e = 2.7182818285
 
     def __init__(self, data=None, lambtha=1.):

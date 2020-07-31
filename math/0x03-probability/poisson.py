@@ -5,7 +5,7 @@
 class Poisson:
     """poisson class"""
     e = 2.7182818285
-
+    pi = 3.1415926536
     def __init__(self, data=None, lambtha=1.):
         """Class init"""
         if data is None and isinstance(lambtha, (float, int)):
@@ -15,6 +15,7 @@ class Poisson:
         else:
             if not isinstance(data, int):
                 raise TypeError("data must be a list")
-            if len(data) < 2:
+            elif len(data) < 2:
                 raise ValueError("data must contain multiple values")
-            self.lambtha = sum(data) / len(data)
+            else:
+                self.lambtha = sum(data) / len(data)

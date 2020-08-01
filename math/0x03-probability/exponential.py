@@ -9,7 +9,7 @@ class Exponential:
         self.e = 2.7182818285
         self.pi = 3.1415926536
 
-        if data is None and isinstance(lambtha, (float, int)):
+        if data is None:
             if lambtha < 0:
                 raise ValueError("lambtha must be a positive value")
             else:

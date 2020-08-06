@@ -6,7 +6,6 @@ import numpy as np
 class Neuron:
     """Class init"""
 
-
     def __init__(self, nx):
         self.nx = nx
 

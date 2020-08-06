@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """ Class neuron"""
-
 import numpy as np
 
 
 class Neuron:
+    """Class init"""
+
+
     def __init__(self, nx):
-        """Class init"""
         self.nx = nx
 
         if type(nx) is not int:

@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 """ this function converts a numeric label vector into a one-hot matrix"""
 
 

@@ -6,7 +6,7 @@ import numpy as np
 
 
 def one_hot_encode(Y, classes):
-    """Y is a numpy array, 
+    """Y is a numpy array,
     and classes is the maximum number of classes found in Y"""
 
     if not isinstance(Y, np.ndarray) or len(Y) == 0:
